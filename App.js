@@ -105,7 +105,7 @@ class App extends Component {
         render() { 
             return (
                 <body>
-                    <section id='form-section'>
+                    <section id='form-section' style={{backgroundColor:"rgb(189,183,107)"}}>
                         <div className='form-div'>
                             <h2 className="text-center"><img src='https://res.cloudinary.com/tovia212/image/upload/v1599583708/inec_logo_nr4s0r.jpg' alt='' /> Voters Registration Form</h2>
                             
@@ -202,7 +202,7 @@ class App extends Component {
                                     </label>
                                 </div>
                             </div>
-                            <button type="submit" className="btn btn-primary" style={{width:"100%", backgroundColor:"gray" }}>REGISTER</button>  
+                            <button type="submit" className="btn btn-primary" style={{width:"30%", backgroundColor:"gray" }}>REGISTER</button>  
 
                         </form>
                     </section>
